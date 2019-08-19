@@ -1,10 +1,8 @@
 package com.wjs.community.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Setter
-@Getter
+@Data
 public class User {
     private Integer id;
     private String accountId;
@@ -12,4 +10,5 @@ public class User {
     private String token;
     private Long gmtCreate;
     private Long gmtModified;
+    private String avatarUrl;
 }

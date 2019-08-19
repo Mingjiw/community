@@ -1,10 +1,8 @@
 package com.wjs.community.dto;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
-@Getter
-@Setter
+@Data
 public class AccessTokenDTO{
     private String client_id;
     private String client_secret;
